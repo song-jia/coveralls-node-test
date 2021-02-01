@@ -22,4 +22,11 @@ describe('calculator', () => {
             assert.strictEqual(res, 6);
         });
     });
+
+    describe('divide', () => {
+        it('should a divide b', () => {
+            const res = cal.divide(6, 3);
+            assert.strictEqual(res, 2);
+        });
+    });
 });
