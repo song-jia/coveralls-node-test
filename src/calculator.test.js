@@ -15,4 +15,11 @@ describe('calculator', () => {
             assert.strictEqual(res, 1);
         });
     });
+
+    describe('multiply', () => {
+        it('should a multiply b', () => {
+            const res = cal.multiply(2, 3);
+            assert.strictEqual(res, 6);
+        });
+    });
 });
